@@ -1,3 +1,4 @@
+
 # Como executar
 ```
 catalunha@pop-os:~/myapp/learning_about_b4a_js$ node index.js

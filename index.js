@@ -4,8 +4,6 @@ Parse.initialize('x4uHx8hJECtAPiKo4Z2f8IK9OUKRtcuUBBaUBHM9','BzNK4dwZ1UvFcgsyQum
 
 const main = async ()=>{
   const query = new Parse.Query('Genre');
-  // query.notEqualTo('isMan',true);
-  // query.equalTo('birthDate',null);
   query.exists('typeDateTime');
   const subscribe = await query.subscribe();
 
