@@ -1,6 +1,6 @@
 const Parse = require('parse/node');
 Parse.serverURL = 'https://learningaboutb4a.b4a.io';
-Parse.initialize('x4uHx8hJECtAPiKo4Z2f8IK9OUKRtcuUBBaUBHM9','BzNK4dwZ1UvFcgsyQum6jktmOFUrxr4EcgaS4Mp7');
+Parse.initialize('','');
 
 const main = async ()=>{
   const query = new Parse.Query('Genre');
